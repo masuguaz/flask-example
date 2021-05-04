@@ -24,8 +24,8 @@ def getName(label):
         return "Error"
 
 app = Flask(__name__)
-app.config.from_object(__name__)
-app.config['SECRET_KEY'] = 'zJe09C5c3tMf5FnNL09C5d6SAzZoY'
+# app.config.from_object(__name__)
+# app.config['SECRET_KEY'] = 'zJe09C5c3tMf5FnNL09C5d6SAzZoY'
 
 # 公式サイト
 # http://wtforms.simplecodes.com/docs/0.6/fields.html
